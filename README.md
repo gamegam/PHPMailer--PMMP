@@ -2,7 +2,7 @@
 
 ---
 
-## 💻 Code Example
+## Example
 
 ```php
 use gamegam\PHPMailer\PHPLoader;
