@@ -28,16 +28,14 @@ try {
     $mail->Port = $port;
 
     $mail->addAddress($email, "username");
-    $mail->setFrom($useremail, 'gamegam');
+    $mail->setFrom($useremail, 'your name');
 
     $mail->isHTML(true);
     $mail->Subject = $title;
     $mail->Body = $body;
 
     $mail->Timeout = 1;
-    $mail->send();
-
-    echo "email send";
+    $mail->send();   
 } catch (\Exception $e) {
-    echo $e->getMessage();
+    // error message
 }
