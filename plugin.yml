@@ -1,5 +1,0 @@
-name: PHPMailer
-main: gamegam\PHPMailer\Loader
-author: gamegam
-version: 1.0.0
-api: 5.0.0
